@@ -1,0 +1,27 @@
+<header class="header">
+  <div class="container">
+    <div class="flex justify-between">
+      <div class="logo">
+        <h1>Q Next</h1>
+        <span class="tagline">AI & Data Science Excellence</span>
+      </div>
+      <nav class="nav">
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
+        {{ end }}
+      </nav>
+      <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+    </div>
+  </div>
+</header>
+<nav id="mobileNav" class="mobile-nav">
+  {{ range .Site.Menus.main }}
+  <a href="{{ .URL }}" class="mobile-nav-link">{{ .Name }}</a>
+  {{ end }}
+</nav>
+
+<script>
+  function toggleMobileMenu() {
+    document.getElementById("mobileNav").classList.toggle("active");
+  }
+</script>

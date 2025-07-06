@@ -1,0 +1,80 @@
+<section>
+  <div class="blog-detail-pgcli-bg">
+    <div class="container">
+      <div class="blog-detail-pgcli">
+        <div class="bd-pgcli-txt">
+          <div class="bdp-txt-par">
+            <h4>Related Blog</h4>
+          </div>
+          <div class="sydney-inquiry">
+            <a href="/blog/">
+              View More
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <mask id="mask0_355_145" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                  <rect width="24" height="24" fill="#D9D9D9" />
+                </mask>
+                <g mask="url(#mask0_355_145)">
+                  <path d="M6.4 18L5 16.6L14.6 7H6V5H18V17H16V8.4L6.4 18Z" fill="white" />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+        {{ $related := .Site.RegularPages.Related . | first 3 }}
+        {{ if gt (len $related) 0 }}
+          <div class="blog-page-clinic-bg">
+            <div class="row">
+              {{ range $related }}
+                {{ if ne .Permalink $.Permalink }} <!-- Exclude current post -->
+                  <div class="col-lg-4 col-md-6">
+                    <div class="blog-clinic-content" style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 48.56%, rgba(0, 0, 0, 0.90) 100%), url('{{ .Params.image | absURL }}') lightgray 50% / cover no-repeat;cursor: pointer !important;" onclick="window.location='{{ .Permalink }}';">
+                      <div class="blog-clinic-list">
+                        <ul>
+                          {{ if .Params.tags }}
+                            {{ range .Params.tags }}
+                              <li>{{ . }}</li>
+                            {{ end }}
+                          {{ else }}
+                            <li>No tags</li>
+                          {{ end }}
+                        </ul>
+                        <div class="blog-clinic-arrow">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <mask id="mask0_319_5842" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                              <rect width="24" height="24" transform="matrix(1 0 0 -1 0 24)" fill="#D9D9D9" />
+                            </mask>
+                            <g mask="url(#mask0_319_5842)">
+                              <path d="M16.175 11H4V13H16.175L10.575 18.6L12 20L20 12L12 4L10.575 5.4L16.175 11Z" fill="#27A9E1" />
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="blog-explores">
+                        <h4>{{ .Title }}</h4>
+                        <div class="blog-overlay-text">
+                          <a href="{{ .Permalink }}">
+                            Explore More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                              <mask id="mask0_319_5851" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="28" height="28">
+                                <rect width="28" height="28" fill="#D9D9D9" />
+                              </mask>
+                              <g mask="url(#mask0_319_5851)">
+                                <path d="M6.55258 22.1665L4.66797 20.2819L17.591 7.35881H6.01412V4.6665H22.168V20.8204H19.4757V9.24343L6.55258 22.1665Z" fill="white" />
+                              </g>
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        {{ else }}
+          <p>No related posts available.</p>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

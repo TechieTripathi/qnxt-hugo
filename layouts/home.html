@@ -1,0 +1,345 @@
+{{ define "section" }}
+
+    <section id="home" class="hero fade-in">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Transform Your Organization with AI & Data Science</h1>
+          <p class="hero-subtitle">Q Next provides cutting-edge consultancy in Data Science, AI, Optimization, and Modeling to significantly improve organizational KPIs across Defense, Renewable Energy, Logistics, Finance, and Healthcare sectors.</p>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number">20.86%</span>
+              <span class="stat-label">Market CAGR</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">40%</span>
+              <span class="stat-label">Max ROI</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Industries</span>
+            </div>
+          </div>
+          <div class="hero-cta">
+            <a href="/contact" class="btn btn--primary">Get Consultation</a>
+            <a href="/market-analysis" class="btn btn--secondary">View Market Analysis</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-overview">
+      <div class="container">
+        <h2>Our Core Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">🤖</div>
+            <h3>Artificial Intelligence</h3>
+            <p>Advanced AI solutions including machine learning, computer vision, and natural language processing.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">📊</div>
+            <h3>Data Science</h3>
+            <p>Comprehensive data analysis, predictive modeling, and business intelligence solutions.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">⚡</div>
+            <h3>Optimization</h3>
+            <p>Process optimization, resource allocation, and operational efficiency improvements.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🔬</div>
+            <h3>Modeling</h3>
+            <p>Mathematical modeling, simulation, and scenario analysis for strategic decision-making.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="target-sectors">
+      <div class="container">
+        <h2>Industries We Serve</h2>
+        <div class="sectors-grid">
+          <div class="sector-card">
+            <h3>🛡️ Defense</h3>
+            <p>Autonomous systems, cybersecurity, and threat detection solutions.</p>
+            <span class="roi-badge">40% ROI</span>
+          </div>
+          <div class="sector-card">
+            <h3>🏥 Healthcare</h3>
+            <p>Medical imaging, diagnostics, and predictive analytics.</p>
+            <span class="roi-badge">30% ROI</span>
+          </div>
+          <div class="sector-card">
+            <h3>⚡ Renewable Energy</h3>
+            <p>Energy forecasting, grid optimization, and performance analytics.</p>
+            <span class="roi-badge">25% ROI</span>
+          </div>
+          <div class="sector-card">
+            <h3>💰 Finance</h3>
+            <p>Fraud detection, risk assessment, and algorithmic trading.</p>
+            <span class="roi-badge">25% ROI</span>
+          </div>
+          <div class="sector-card">
+            <h3>🚛 Logistics</h3>
+            <p>Route optimization, supply chain analytics, and demand forecasting.</p>
+            <span class="roi-badge">20% ROI</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="market-analysis" class="market-analysis">
+      <div class="container">
+        <h2>Market Analysis & Trends</h2>
+        <div class="market-stats-grid">
+          <div class="stat-card">
+            <h3>$8.75B</h3>
+            <p>Current Market Size (2024)</p>
+          </div>
+          <div class="stat-card">
+            <h3>$58.19B</h3>
+            <p>Projected Market Size (2034)</p>
+          </div>
+          <div class="stat-card">
+            <h3>20.86%</h3>
+            <p>Annual Growth Rate (CAGR)</p>
+          </div>
+          <div class="stat-card">
+            <h3>$1T</h3>
+            <p>Banking Sector Savings Potential</p>
+          </div>
+        </div>
+        <div class="charts-container">
+          <div class="chart-section">
+            <h3>AI Consulting Market Growth Projection</h3>
+            <img src="/images/ai_consulting_market_growth.png" alt="Market Growth Chart" class="chart-image">
+          </div>
+          <div class="chart-section">
+            <h3>ROI by Industry Sector</h3>
+            <img src="/images/roi_impact_chart.png" alt="ROI Impact Chart" class="chart-image">
+          </div>
+        </div>
+        <div class="market-insights">
+          <div class="insight-card">
+            <h4>Key Market Drivers</h4>
+            <ul>
+              <li>Digital transformation acceleration</li>
+              <li>Increased data availability</li>
+              <li>Cost reduction pressures</li>
+              <li>Competitive advantage needs</li>
+            </ul>
+          </div>
+          <div class="insight-card">
+            <h4>Investment Opportunities</h4>
+            <ul>
+              <li>Defense sector automation</li>
+              <li>Healthcare predictive analytics</li>
+              <li>Energy grid optimization</li>
+              <li>Financial risk management</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Portfolio -->
+    <section id="services" class="services-portfolio">
+      <div class="container">
+        <h2>AI Applications Portfolio</h2>
+        <div class="portfolio-tabs">
+          <button class="tab-btn active" onclick="showSector('all')">All Sectors</button>
+          <button class="tab-btn" onclick="showSector('defense')">Defense</button>
+          <button class="tab-btn" onclick="showSector('healthcare')">Healthcare</button>
+          <button class="tab-btn" onclick="showSector('renewable')">Renewable Energy</button>
+          <button class="tab-btn" onclick="showSector('finance')">Finance</button>
+          <button class="tab-btn" onclick="showSector('logistics')">Logistics</button>
+      </div>
+        <div id="applicationsGrid" class="applications-grid">
+          <!-- Applications will be populated by JavaScript -->
+        </div>
+        <div class="complexity-roi-section">
+          <h3>Implementation Complexity vs ROI Matrix</h3>
+          <p>Strategic positioning of AI applications to identify quick wins and high-impact investments.</p>
+          <img src="/images/ai_complexity_roi_scatter.png" alt="Complexity vs ROI Matrix" class="chart-image">
+        </div>
+      </div>
+    </section>
+
+    <section id="industries" class="industry-insights">
+      <div class="container">
+        <h2>Industry-Specific Insights</h2>
+        <div class="industry-selector">
+          <select id="industrySelect" class="form-control">
+            <option value="">Select an industry</option>
+            <option value="defense">Defense/Military</option>
+            <option value="healthcare">Healthcare</option>
+            <option value="renewable">Renewable Energy</option>
+            <option value="finance">Finance</option>
+            <option value="logistics">Logistics</option>
+          </select>
+        </div>
+        <div id="industryDetails" class="industry-details">
+          <p>Select an industry above to view detailed insights, challenges, and opportunities.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="roi-calculator" class="roi-calculator">
+      <div class="container">
+        <h2>ROI Calculator</h2>
+        <p>Estimate the potential return on investment for your AI implementation project.</p>
+        <div class="calculator-container">
+          <div class="calculator-inputs">
+            <div class="form-group">
+              <label for="calcSector" class="form-label">Industry Sector</label>
+              <select id="calcSector" class="form-control">
+                <option value="">Select sector</option>
+                <option value="defense">Defense/Military</option>
+                <option value="healthcare">Healthcare</option>
+                <option value="renewable">Renewable Energy</option>
+                <option value="finance">Finance</option>
+                <option value="logistics">Logistics</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="calcInvestment" class="form-label">Project Investment ($)</label>
+              <input type="number" id="calcInvestment" class="form-control" placeholder="Enter amount">
+            </div>
+            <div class="form-group">
+              <label for="calcComplexity" class="form-label">Project Complexity</label>
+              <select id="calcComplexity" class="form-control">
+                <option value="">Select complexity</option>
+                <option value="low">Low - Simple automation</option>
+                <option value="medium">Medium - Advanced analytics</option>
+                <option value="high">High - Complex AI systems</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="calcTimeline" class="form-label">Implementation Timeline (months)</label>
+              <input type="number" id="calcTimeline" class="form-control" placeholder="Enter months">
+            </div>
+            <button onclick="calculateROI()" class="btn btn--primary">Calculate ROI</button>
+          </div>
+          <div id="calculatorResults" class="calculator-results">
+            <h3>Projected Results</h3>
+            <p>Complete the form to see your ROI projection.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-content">
+          <div class="contact-info">
+            <h2>Ready to Transform Your Organization?</h2>
+            <p>Get in touch with our experts to discuss how Q Next can help improve your organizational KPIs through AI and data science solutions.</p>
+            <div class="about-qnext">
+              <h3>About Q Next</h3>
+              <ul>
+                <li>Industry-leading expertise in AI and data science</li>
+                <li>Proven track record across multiple sectors</li>
+                <li>Focus on measurable KPI improvements</li>
+                <li>End-to-end implementation support</li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact-form-container">
+            <h3>Schedule a Consultation</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="contactName" class="form-label">Full Name *</label>
+                <input type="text" id="contactName" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="contactEmail" class="form-label">Email Address *</label>
+                <input type="email" id="contactEmail" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="contactCompany" class="form-label">Company</label>
+                <input type="text" id="contactCompany" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="contactSector" class="form-label">Industry Sector</label>
+                <select id="contactSector" class="form-control">
+                  <option value="">Select sector</option>
+                  <option value="defense">Defense/Military</option>
+                  <option value="healthcare">Healthcare</option>
+                  <option value="renewable">Renewable Energy</option>
+                  <option value="finance">Finance</option>
+                  <option value="logistics">Logistics</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Project Description</label>
+                <textarea id="contactMessage" class="form-control" rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary btn--full-width">Schedule Consultation</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-overview">
+      <div class="container">
+        <h2>Our Team</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">🤖</div>
+            <h3>John Doe</h3>
+            <p>AI Specialist</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">📊</div>
+            <h3>Jane Smith</h3>
+            <p>Data Scientist</p>
+          </div>
+          <!-- <div class="service-card">
+            <div class="service-icon">⚡</div>
+            <h3>Jane Smith</h3>
+            <p>Data Scientist</p>
+          </div> -->
+          <div class="service-card">
+            <div class="service-icon">🔬</div>
+            <h3>Robert Johnson</h3>
+            <p>Optimization Lead</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs">
+      <div class="container">
+        <h2>Blogs</h2>
+        <p>Stay updated with the latest insights and trends in AI and data science.</p>
+        <div class="blog-grid">
+          {{ range first 3 (where .Site.RegularPages "Type" "blog") }}
+          <div class="blog-card">
+            <div class="blog-content">
+              <div class="blog-text">
+                <h3>{{ .Title | markdownify }}</h3>
+                <p>{{ .Params.description | markdownify }}</p>
+                <div class="blog-image">
+                  <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" />
+                </div>
+                <div class="blog-data">
+                  <!-- {{ range first 2 .Params.tags }}
+                    <div>
+                      <span>{{ . | upper }}</span>
+                      {{ if eq . "ai" }}HALF-PRECISION (FP16){{ else if eq . "data-science" }}SINGLE-PRECISION (FP32){{ end }}
+                    </div>
+                  {{ end }} -->
+                  <p>{{ if .Params.extra_text }}{{ .Params.extra_text | markdownify }}{{ else }}Reduced numerical accuracy{{ end }}</p>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        <a href="/blog" class="btn btn--primary">View All Blogs</a>
+      </div>
+    </section>
+  {{end}}

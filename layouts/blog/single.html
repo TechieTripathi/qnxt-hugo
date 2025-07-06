@@ -1,0 +1,63 @@
+{{ define "section" }}
+  <!-- Back Blog Start -->
+  <section>
+    <div class="back-blog-detail-bg">
+      <div class="container">
+        <div class="back-blog-detail">
+          <div class="bbd-anchor">
+            <a href="/blog/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <mask id="mask0_554_9692" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                    <rect width="24" height="24" transform="matrix(-1 0 0 1 24 0)" fill="#D9D9D9"></rect>
+                </mask>
+                <g mask="url(#mask0_554_9692)">
+                    <path d="M7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20L13.425 18.6L7.825 13Z" fill="#27A9E1"></path>
+                </g>
+            </svg>
+              Back to all Blogs</a>
+          </div>
+          <div class="bbd-img">
+            <!-- <img src='{{ .Params.image | absURL }}' alt="{{ .Title }}" loading="lazy"> -->
+          </div>
+          <div class="bbd-reading">
+            <div class="bbd-read-para">
+              <p>By {{ .Params.author }}</p>
+              <p>On {{ .Date.Format "Jan 2, 2006" }}</p>
+            </div>
+            <div class="bbd-read-para-time">
+              <p>{{ .Params.read_time }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Speech Articulation Start -->
+<section>
+  <div class="speech-articulation-bg">
+    <div class="container">
+      <div class="speech-articulation-txt">
+        <h1>{{ .Title | markdownify }}</h1>
+        <p>{{ .Description | markdownify }}</p>
+      </div>
+      <div class="speech-idea-bg">
+        {{ if .Content }}
+          {{ .Content }}
+        {{ else }}
+          <p>No activities provided.</p>
+        {{ end }}
+        <div class="blog-gave-fun">
+          <!-- <p>We hope these ideas help bring a little life into speech articulation practice at home! Remember to choose a time that works best for you. It may be in the car, at the park or at home. Feel free to involve your child’s siblings or friends in the activity to make the activities even more enjoyable!</p>
+          <p>Most importantly, <span>HAVE FUN!</span></p>
+          <p>If you have any questions about home practice or need additional ideas and strategies, your speech pathologist will be happy to discuss this with you!</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Speech Articulation End -->
+{{partial "social-share.html" .}}
+  {{partial "related-blogs.html" .}}
+  {{ partial "subscribe.html" . }}
+{{ end }}

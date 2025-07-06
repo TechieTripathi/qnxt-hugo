@@ -1,0 +1,48 @@
+<div class="speech-therapist-card-popup-bg" id="speech-therapist-cr-popup">
+  {{ if eq .Type "team" }}
+    {{ $teamSection := .Site.GetPage "/team" }}
+    {{ range $categoryIndex, $category := $teamSection.Sections }}
+      {{ $members := where .RegularPages ".Params.draft" "ne" true }}
+      {{ range $memberIndex, $member := $members }}
+        <div class="speech-therapist-card-popup" 
+             data-index="{{ $memberIndex }}" 
+             data-category="{{ $member.Params.category }}" 
+             data-id="{{ $member.RelPermalink }}" 
+             style="display: none;">
+          <div class="stcp-img">
+            {{ partial "image-comp.html" (dict "image" (resources.Get $member.Params.image) "alt" $member.Params.title) }}
+            <div class="stcp-name">
+              <h4>{{ $member.Params.title }}</h4>
+              <p>{{ $member.Params.role }}</p>
+            </div>
+          </div>
+          <div class="stcp-content">
+            {{ with $member.Params.sections }}
+              {{ range . }}
+                <div class="stcp-content-txt">
+                  {{ with .title }}<h5>{{ . | markdownify }}:</h5>{{ end }}
+                  {{ with .content }}
+                    <p>{{ . | markdownify }}</p>
+                  {{ end }}
+                  {{ with .items }}
+                    <ul>
+                      {{ range . }}
+                        <li>{{ . | markdownify }}</li>
+                      {{ end }}
+                    </ul>
+                  {{ end }}
+                </div>
+              {{ end }}
+            {{ else }}
+              <p>No detailed information available.</p> 
+            {{ end }}
+          </div>
+          <div class="speech-therapist-card-popup-close">
+            <img src='{{ "images/popup-cross.svg" | relURL }}' alt="Close">
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
+<div id="overlay-popup"></div>

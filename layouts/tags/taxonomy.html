@@ -1,0 +1,139 @@
+{{ define "section" }}
+  <section>
+    <div class="blog-support-clinic-bg">
+      <div class="container">
+        <!-- Blog Header -->
+        <div class="blog-updates">
+          <h1>Tag: {{ .Title }}</h1>
+        </div>
+
+        <!-- Blog Grid with Filter -->
+        <div class="blog-page-clinic-bg">
+          <!-- Filter Section -->
+          <div class="blog-filter">
+            <div class="blog-filt-para">
+              <p>Filter by:</p>
+            </div>
+            <div class="blog-filter-btn" style="display: flex; flex-wrap: wrap; gap: 10px;">
+              {{ $tags := dict }}
+              {{ $counts := dict }}
+              {{ range .Site.Taxonomies.tags }}
+                {{ $tags = merge $tags (dict .Page.Title true) }}
+                {{ $counts = merge $counts (dict .Page.Title .Count) }}
+              {{ end }}
+              {{ range $tag, $_ := $tags }}
+                <div class="social-bfb-bt">
+                  <p style="cursor: pointer !important;" onclick="window.location.href='{{ site.BaseURL }}tags/{{ $tag }}'">{{ $tag }} <span>({{ index $counts $tag }})</span></p>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+
+          <!-- Blog Posts Grid -->
+          <div class="row">
+            {{ range $index, $post := .Paginator.Pages }}
+              <div class="col-lg-4 col-md-6">
+                <div class="blog-clinic-content {{ if eq $index 1 }}blog-clinic-content-2{{ else if eq $index 2 }}blog-clinic-content-3{{ end }}" style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 48.56%, rgba(0, 0, 0, 0.90) 100%), url('{{ $post.Params.image | absURL }}') lightgray 50% / cover no-repeat; cursor: pointer !important;" onclick="window.location='{{ $post.Permalink }}';">
+                  <div class="blog-clinic-list">
+                    <ul>
+                      {{ if $post.Params.tags }}
+                        {{ range first 3 $post.Params.tags }}
+                          <li>{{ . }}</li>
+                        {{ end }}
+                      {{ else }}
+                        <li>No tags</li>
+                      {{ end }}
+                    </ul>
+                    <div class="blog-clinic-arrow">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <mask id="mask0_319_5842" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                          <rect width="24" height="24" transform="matrix(1 0 0 -1 0 24)" fill="#D9D9D9" />
+                        </mask>
+                        <g mask="url(#mask0_319_5842)">
+                          <path d="M16.175 11H4V13H16.175L10.575 18.6L12 20L20 12L12 4L10.575 5.4L16.175 11Z" fill="#27A9E1" />
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="blog-explores">
+                    <h4>{{ $post.Title | markdownify }}</h4>
+                    <p>{{ $post.Params.description | markdownify }}</p>
+                    <div class="blog-overlay-text">
+                      <a href="{{ $post.Permalink }}">Explore More 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                          <mask id="mask0_319_5851" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="28" height="28">
+                            <rect width="28" height="28" fill="#D9D9D9" />
+                          </mask>
+                          <g mask="url(#mask0_319_5851)">
+                            <path d="M6.55258 22.1665L4.66797 20.2819L17.591 7.35881H6.01412V4.6665H22.168V20.8204H19.4757V9.24343L6.55258 22.1665Z" fill="white" />
+                          </g>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {{ end }}
+          </div>
+
+          <!-- Pagination -->
+          {{ if gt .Paginator.TotalPages 1 }}
+            <div class="blog-pagination">
+              <ul>
+                <!-- Previous Arrow -->
+                <li class="{{ if not .Paginator.HasPrev }}disabled{{ end }}">
+                  {{ if .Paginator.HasPrev }}
+                    <a href="{{ .Paginator.Prev.URL }}">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                        <path d="M19.0864 9.2625L13.3614 15L19.0864 20.7375L17.3239 22.5L9.82393 15L17.3239 7.5L19.0864 9.2625Z" fill="#969696"/>
+                      </svg>
+                    </a>
+                  {{ else }}
+                    <span class="disabled-arrow">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                        <path d="M19.0864 9.2625L13.3614 15L19.0864 20.7375L17.3239 22.5L9.82393 15L17.3239 7.5L19.0864 9.2625Z" fill="#C4CDD5"/>
+                      </svg>
+                    </span>
+                  {{ end }}
+                </li>
+
+                <!-- Page Numbers -->
+                {{ range .Paginator.Pagers }}
+                  <li {{ if eq .PageNumber $.Paginator.PageNumber }}class="active"{{ end }}>
+                    <a href="{{ .URL }}">{{ .PageNumber }}</a>
+                  </li>
+                {{ end }}
+
+                <!-- Ellipsis and Last Pages -->
+                {{ if gt .Paginator.TotalPages 5 }}
+                  {{ if not (eq .Paginator.PageNumber .Paginator.TotalPages) }}
+                    <li><a href="#">...</a></li>
+                    <li><a href="{{ (index .Paginator.Pagers (sub .Paginator.TotalPages 2)).URL }}">{{ sub .Paginator.TotalPages 1 }}</a></li>
+                    <li><a href="{{ (index .Paginator.Pagers (sub .Paginator.TotalPages 1)).URL }}">{{ .Paginator.TotalPages }}</a></li>
+                  {{ end }}
+                {{ end }}
+
+                <!-- Next Arrow -->
+                <li class="{{ if not .Paginator.HasNext }}disabled{{ end }}">
+                  {{ if .Paginator.HasNext }}
+                    <a href="{{ .Paginator.Next.URL }}">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                        <path d="M11.0498 9.2625L16.7748 15L11.0498 20.7375L12.8123 22.5L20.3123 15L12.8123 7.5L11.0498 9.2625Z" fill="#969696"/>
+                      </svg>
+                    </a>
+                  {{ else }}
+                    <span class="disabled-arrow">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                        <path d="M11.0498 9.2625L16.7748 15L11.0498 20.7375L12.8123 22.5L20.3123 15L12.8123 7.5L11.0498 9.2625Z" fill="#C4CDD5"/>
+                      </svg>
+                    </span>
+                  {{ end }}
+                </li>
+              </ul>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

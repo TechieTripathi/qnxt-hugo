@@ -1,0 +1,48 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Q Next"
+
+[params]
+  description = "AI & Data Science Excellence"
+  author = "Q Next"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Market Analysis"
+    url = "#market-analysis"
+    weight = 2
+
+  [[menu.main]]
+    name = "Services"
+    url = "#services"
+    weight = 3
+
+  [[menu.main]]
+    name = "Industries"
+    url = "#industries"
+    weight = 4
+
+  [[menu.main]]
+    name = "ROI Calculator"
+    url = "#roi-calculator"
+    weight = 5
+
+  [[menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 6
+
+  [[menu.main]]
+    name = "Our Team"
+    url = "/our-team"
+    weight = 7
+
+  [[menu.main]]
+    name = "Blogs"
+    url = "/blog"
+    weight = 8

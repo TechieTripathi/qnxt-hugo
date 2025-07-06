@@ -1,0 +1,29 @@
+<div class="tailord-approach-bg {{ .Get "class" }}">
+  <div class="row">
+    {{ if eq (.Get "reverse") "true" }}
+    <!-- Image on left, content on right -->
+    <div class="col-lg-6">
+      <div class="tailor-approach-img {{ .Get "img_class" }}">
+        {{ partial "image-comp.html" (dict "image" (resources.Get (.Get "img")) "alt" (.Get "alt")) }}
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="tailord-approach-content {{ .Get "content_class" }}">
+        {{ .Inner | markdownify }}
+      </div>
+    </div>
+    {{ else }}
+    <!-- Content on left, image on right -->
+    <div class="col-lg-6">
+      <div class="tailord-approach-content {{ .Get "content_class" }}">
+        {{ .Inner | markdownify }}
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="tailor-approach-img {{ .Get "img_class" }}">
+        {{ partial "image-comp.html" (dict "image" (resources.Get (.Get "img")) "alt" (.Get "alt")) }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>

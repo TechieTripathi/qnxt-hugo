@@ -1,0 +1,14 @@
+{{ $image := .image }}
+{{ $alt := .alt | default "Image" }}
+{{ if $image }}
+  {{ if eq $image.MediaType.SubType "svg" }}
+    <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+  {{ else }}
+    {{ $webp := $image.Process "webp q95" }}
+    {{ $jpeg := $image.Process "jpeg q95" }}
+    <picture>
+      <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+      <img src="{{ $jpeg.RelPermalink }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+    </picture>
+  {{ end }}
+{{ end }}

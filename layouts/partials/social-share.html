@@ -1,0 +1,41 @@
+<section>
+    <div class="container">
+      <div class="blog-detail-social">
+        <div class="bds-socio">
+          <div class="bds-article">
+            <p>Share This Article</p>
+          </div>
+          <div class="bds-socioal-icon">
+            <div>
+              <a href="{{ .Site.Params.social.facebook }}{{ .Permalink }}" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                  <path d="{{ .Site.Params.social.facebooksvgPath}}" fill="#134A8E" />
+                </svg>
+              </a>
+            </div>
+            <div>
+              <a href="https://instagram.com/share?url={{ .Permalink }}" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                  <path d="{{ .Site.Params.social.instagramsvgPath}}" fill="#134A8E" />
+                </svg>
+              </a>
+            </div>
+            <div>
+              <a href="https://linkedin.com/shareArticle?url={{ .Permalink }}" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                  <path d="{{ .Site.Params.social.linkedinsvgPath}}" fill="#134A8E" />
+                </svg>
+              </a>
+            </div>
+            <div>
+              <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                  <path d="{{ .Site.Params.social.twittersvgPath}}" fill="#134A8E" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
