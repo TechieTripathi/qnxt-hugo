@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sydney Speech Clinic | Home on Q Next</title>
+    <link>//localhost:36107/</link>
+    <description>Recent content in Sydney Speech Clinic | Home on Q Next</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Jul 2025 12:16:00 +0530</lastBuildDate>
+    <atom:link href="//localhost:36107/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sample Blog Post</title>
+      <link>//localhost:36107/blog/post1/</link>
+      <pubDate>Sat, 05 Jul 2025 12:16:00 +0530</pubDate>
+      <guid>//localhost:36107/blog/post1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sample Blog Post</title>
+      <link>//localhost:36107/blog/post2/</link>
+      <pubDate>Sat, 05 Jul 2025 12:16:00 +0530</pubDate>
+      <guid>//localhost:36107/blog/post2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sample Blog Post</title>
+      <link>//localhost:36107/blog/post3/</link>
+      <pubDate>Sat, 05 Jul 2025 12:16:00 +0530</pubDate>
+      <guid>//localhost:36107/blog/post3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Catherine Lavery</title>
+      <link>//localhost:36107/team/speech-therapists/catherine-lavery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:36107/team/speech-therapists/catherine-lavery/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Catherine Lavery 1</title>
+      <link>//localhost:36107/team/administrative-staff/catherine-lavery1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:36107/team/administrative-staff/catherine-lavery1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Catherine Lavery 2</title>
+      <link>//localhost:36107/team/administrative-staff/catherine-lavery2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:36107/team/administrative-staff/catherine-lavery2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Catherine Lavery 3</title>
+      <link>//localhost:36107/team/administrative-staff/catherine-lavery3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:36107/team/administrative-staff/catherine-lavery3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Catherine Lavery 4</title>
+      <link>//localhost:36107/team/administrative-staff/catherine-lavery4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:36107/team/administrative-staff/catherine-lavery4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Catherine Lavery 5</title>
+      <link>//localhost:36107/team/administrative-staff/catherine-lavery5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:36107/team/administrative-staff/catherine-lavery5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Catherine Lavery 6</title>
+      <link>//localhost:36107/team/administrative-staff/catherine-lavery6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:36107/team/administrative-staff/catherine-lavery6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Catherine Lavery 7</title>
+      <link>//localhost:36107/team/administrative-staff/catherine-lavery7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:36107/team/administrative-staff/catherine-lavery7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Catherine Lavery 8</title>
+      <link>//localhost:36107/team/administrative-staff/catherine-lavery8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:36107/team/administrative-staff/catherine-lavery8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jane Doe</title>
+      <link>//localhost:36107/team/speech-therapists/jane-doe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:36107/team/speech-therapists/jane-doe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jane Doe 1 </title>
+      <link>//localhost:36107/team/occupational-therapists/jane-doe1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:36107/team/occupational-therapists/jane-doe1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jane Doe 2</title>
+      <link>//localhost:36107/team/occupational-therapists/jane-doe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:36107/team/occupational-therapists/jane-doe2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jane Doe 3</title>
+      <link>//localhost:36107/team/occupational-therapists/jane-doe3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:36107/team/occupational-therapists/jane-doe3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>John Smith</title>
+      <link>//localhost:36107/team/speech-therapists/john-smith/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:36107/team/speech-therapists/john-smith/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

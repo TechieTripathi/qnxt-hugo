@@ -1,0 +1,353 @@
+.bbd-img img {
+    width: 100%;
+}
+
+.bbd-img {
+    border-radius: 24px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.bbd-anchor a {
+    color: #27A9E1;
+    text-align: center;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 1.5px solid #27A9E1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: max-content;
+}
+
+.bbd-anchor {
+    padding: 60px 0 34px 0;
+}
+
+.bbd-read-para p {
+    color: #64748B;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0;
+}
+
+.bbd-read-para-time p {
+    color: #64748B;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0;
+}
+
+.bbd-read-para {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+}
+
+.bbd-read-para::after {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 22.412px;
+    background-color: #D1D5DB;
+    left: 59%;
+    transform: translateX(-59%);
+}
+
+.bbd-reading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 6px;
+}
+
+/* speech-articulation */
+
+.speech-articulation-txt h1 {
+    color: #134A8E;
+    font-family: "Sora";
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 16px 0;
+}
+
+.speech-articulation-txt p {
+    color: #6B7280;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 24px;
+}
+
+.speech-idea-bg h4 {
+    color: #134A8E;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+/* Adding styles for h1, h2, h3 elements in blog content */
+.speech-idea-bg h1 {
+    color: #134A8E;
+    font-family: "Sora";
+    font-size: 32px;
+    font-weight: 700;
+    margin: 24px 0 16px;
+}
+
+.speech-idea-bg h2 {
+    color: #134A8E;
+    font-family: "Sora";
+    font-size: 28px;
+    font-weight: 600;
+    margin: 20px 0 14px;
+}
+
+.speech-idea-bg h3 {
+    color: #134A8E;
+    font-family: "Sora";
+    font-size: 24px;
+    font-weight: 600;
+    margin: 18px 0 12px;
+}
+
+.speech-idea-bg h4 {
+    color: #134A8E;
+    font-family: "Sora";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.speech-idea-bg h5 {
+    color: #134A8E;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.speech-idea-bg h6 {
+    color: #134A8E;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.speech-idea-bg p {
+    color: #646464;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+
+.speech-csp-content h5 {
+    color: #134A8E;
+    font-family: "Sora";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.speech-csp-content p {
+    color: #646464;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.speech-csp-img img {
+    width: 100%;
+}
+
+.speech-idea-bg {
+    padding: 0 25px;
+}
+
+.speech-csp {
+    padding-right: 10px;
+}
+
+.speech-csp-img {
+    border-radius: 24px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.speech-csp-padi {
+    padding-left: 10px;
+}
+
+.speech-idea-img-sec {
+    padding-bottom: 40px;
+}
+
+.blog-gave-fun p {
+    color: #646464;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.blog-gave-fun p span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* social */
+
+.bds-article p{
+    color: #323232;
+    text-align: center;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    padding: 10px;
+    background-color: white;
+}
+.bds-socioal-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 260px;
+    border-radius: 8px;
+    border: 1px solid #CBD5E1;
+    padding: 17px;
+    margin: 0 auto;
+}
+.bds-socio{
+    position: relative;
+    padding-top: 48px;
+    padding-bottom: 60px;
+}
+.bds-article{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 24px;
+}
+.bds-socioal-icon a svg path{
+    transition: 0.2s;
+}
+.bds-socioal-icon a:hover svg path{
+    fill: #27A9E1;
+}
+
+.bdp-txt-par h4{
+    color: #6B7280;
+    font-family: "Sora";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.bd-pgcli-txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.blog-detail-pgcli-bg{
+background-color: #F0F9FF;
+padding: 40px;
+}
+
+
+.back-blog-detail{
+    position: relative;
+}
+.back-blog-detail:after {
+    position: absolute;
+    content: '';
+    background: url(../images/hamburg-line.png) repeat;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+    top: 0px;
+    opacity: 0.3;
+}
+
+
+.back-blog-detail-bg{
+    position: relative;
+}
+.back-blog-detail-bg::after{
+    position: absolute;
+    /* content: url(../images/ham-gr1.png); */
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.back-blog-detail-bg::before{
+    position: absolute;
+    /* content: url(../images/ham-gr2.png); */
+    top: 180px;
+    right: 0;
+    z-index: -2;
+}
+
+@media (max-width:767px) {
+    .bbd-anchor {
+        padding: 30px 0 30px 0;
+    }
+    .bbd-read-para p, .bbd-read-para-time p {
+        font-size: 10px;
+    }
+    .speech-articulation-txt h1 {
+        font-size: 24px;
+    }
+    .speech-articulation-txt p {
+        font-size: 14px;
+    }
+    .speech-idea-bg {
+        padding: 0 10px;
+    }
+    .speech-idea-bg h4 {
+        padding-bottom: 20px;
+    }
+    .speech-idea-img-sec-direc .row{
+        flex-direction: column-reverse;
+    }
+    .speech-idea-img-sec {
+        padding-bottom: 20px;
+    }
+    .speech-csp-img{
+        padding-bottom: 20px;
+    }
+    .speech-csp {
+        padding-right: 0;
+    }
+    .speech-csp-padi {
+        padding-left: 0px;
+    }
+    .blog-detail-pgcli-bg {
+        padding: 10px;
+    }
+}
+        padding-left: 0px;
+    }
+    .blog-detail-pgcli-bg {
+        padding: 10px;
+    }
+}

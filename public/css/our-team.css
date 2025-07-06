@@ -1,0 +1,444 @@
+.dedicated-team-heading h1 {
+    color: #134A8E;
+    text-align: center;
+    font-family: "Sora";
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 70px 0 12px 0;
+}
+
+.dedicated-team-heading p {
+    color: #6B7280;
+    text-align: center;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    max-width: 756px;
+    margin: 0 auto;
+}
+
+.speech-therapist-info {
+    border-radius: 16px;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+    cursor: pointer;
+}
+
+.speech-thera-content {
+    position: absolute;
+    bottom: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(20px);
+    padding: 8px 12px;
+    max-width: 269px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.stc-txt h4 {
+    color: #FFF;
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.stc-txt p {
+    color: #FFF;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.speech-therapist-heading h2 {
+    color: #134A8E;
+    font-family: "Sora";
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.speech-therapist-join-bg {
+    border-radius: 16px;
+    background: #134A8E;
+    height: 100%;
+}
+
+.speech-therapist-join{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 30px 20px;
+}
+
+.stj-txt h4 {
+    color: #FFF;
+    font-family: "Sora";
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 130%;
+    text-transform: capitalize;
+}
+
+.stj-txt h4 span {
+    display: block;
+}
+
+.stj-txt p {
+    color: #FFF;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.stj-join a {
+    border-radius: 100px;
+    background-color: #FFF;
+    color: #27A9E1;
+    text-align: center;
+    font-family: 'Sora';
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 13px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.stj-join{
+    display: inline-flex;
+}
+
+.stj-join a svg{
+    transition: 0.2s;
+}
+
+.stj-join:hover a svg{
+    transform: rotate(45deg);
+}
+.speech-therapist-card-bg .row{
+    row-gap: 20px;
+}
+.dedicated-team-heading{
+    padding-bottom: 72px;
+    position: relative;
+}
+
+.dedicated-team-heading:after{
+position: absolute;
+content: '';
+background: url(../images/hamburg-line.png) repeat;
+width: 100%;
+height: 400px;
+z-index: -1;
+top: 0px;
+opacity: 0.3;
+}
+
+.dedicated-team-bg{
+    position: relative;
+}
+.dedicated-team-bg::after{
+    position: absolute;
+    content: url(../images/ham-gr1.png);
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.dedicated-team-bg::before{
+    position: absolute;
+    content: url(../images/ham-gr2.png);
+    top: 120px;
+    right: 0;
+    z-index: -2;
+}
+
+.speech-therapist-info .stc-arrow{
+    transition: 0.2s;
+}
+.speech-therapist-info:hover .stc-arrow{
+    transform: rotate(45deg);
+}
+
+.speech-therapist-info img{
+    transition: 0.2s;
+    width: 100%;
+}
+.speech-therapist-info:hover img{
+    transform: scale(1.1);
+}
+
+/* popup */
+
+.speech-therapist-card-popup{
+    border-radius: 32px;
+    background: white;
+    display: flex;
+    gap: 40px;
+    padding: 42px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.stcp-content-txt h5{
+    color:#134A8E;
+    font-family: "Sora";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.stcp-content-txt p{
+    color: #6B7280;
+    font-family: "Sora";
+    font-size: 16px;
+}
+.stcp-content-txt ul li{
+    color: #6B7280;
+    font-family: "Sora";
+    font-size: 16px;
+}
+
+.stcp-img img{
+    border-radius: 16px 16px 0px 0px;
+}
+.stcp-img{
+    max-width: 305px;
+    position: relative;
+}
+
+.stcp-name h4{
+    color: #000;
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.stcp-name p{
+    color: #000;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.stcp-name{
+    border-radius: 12px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.12);
+    padding: 8px 12px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    max-width: 269px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 78px;
+
+}
+
+.speech-therapist-card-popup-close{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+}
+
+/* Initially hide the popup and overlay */
+#speech-therapist-cr-popup,
+#overlay-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#overlay-popup {
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+/* Popup styling */
+#speech-therapist-cr-popup {
+    /* background: white; */
+   max-width: 1280px;
+    padding: 20px;
+    z-index: 2;
+    margin: auto;
+    left: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+body.overflow-hidden {
+    overflow: hidden;
+}
+
+
+.occupational-therapist-bg{
+    padding-top: 80px;
+}
+
+/* our clinic  */
+
+.our-clinic-thera{
+    position: relative;
+}
+
+.our-clinic-txt{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 694px;
+}
+
+.our-clinic-txt p{
+    color: #FFF;
+    font-family: "Sora";
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.ourclinic-content p{
+    color:#6B7280;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.ourclinic-content{
+    position: absolute;
+    bottom: 22px;
+    right: 0;
+    max-width: 495px;
+}
+.our-clinic-thera-img img{
+    width: 100%;
+}
+
+.our-clinic-thera-bg{
+    background-color: #F0F9FF;
+    padding: 100px 80px;
+    margin-top: 60px;
+}
+
+/* media query */
+
+@media (max-width:1440px) {
+    .our-clinic-txt {
+        bottom: 40px;
+        left: 20px;
+    }
+    .ourclinic-content p {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:1400px) {
+    .our-clinic-txt {
+        gap: 170px;
+        justify-content: unset;
+    }
+    .ourclinic-content {
+        bottom: -20px;
+    }
+    .ourclinic-content p {
+        padding-left: 80px;
+    }
+}
+
+@media (max-width:1268px) {
+    .our-clinic-txt {
+        gap: 20px;
+    }
+    .ourclinic-content p {
+        padding-left: 170px;
+        font-size: 14px;
+    }
+}
+@media (max-width:991px) {
+    .ourclinic-content {
+        position: unset;
+        max-width: 100%;
+    }
+    .ourclinic-content p {
+        padding-left: 0;
+        margin: 0;
+        padding-top: 10px;
+    }
+    .our-clinic-txt {
+        gap: 0;
+        align-items: start;
+        bottom: 90px;
+        flex-direction: column;
+    }
+    .our-clinic-thera-bg {
+        padding: 50px 0px;
+    }
+}
+
+@media (max-width:767px) {
+    .dedicated-team-heading h1 {
+        font-size: 24px;
+        padding: 30px 0 0px 0;
+    }
+    .dedicated-team-heading {
+        padding-bottom: 20px;
+    }
+    .speech-therapist-heading h2 {
+        font-size: 18px;
+    }
+    .stj-txt h4 {
+        font-size: 24px;
+    }
+    .occupational-therapist-bg {
+        padding-top: 30px;
+    }
+    .our-clinic-txt {
+        max-width: 80%;
+    }
+    .our-clinic-txt p{
+        font-size: 34px;
+    }
+    .our-clinic-txt {
+        bottom: 120px;
+        left: 5px;
+    }
+    .our-clinic-thera-bg {
+        padding: 30px 0px;
+        margin-top: 30px;
+    }
+    .dedicated-team-heading p {
+        font-size: 14px;
+    }
+    
+}
