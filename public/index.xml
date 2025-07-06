@@ -1,138 +1,145 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Q-nxt on Q Next</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Q-nxt on Q Next</description>
+    <title>Qnxt on Q Next</title>
+    <link>http://localhost:41151/</link>
+    <description>Recent content in Qnxt on Q Next</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Jul 2025 20:51:00 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:41151/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testing Vishnu Tripathi</title>
-      <link>http://localhost:1313/blog/testing-vishnu-tripathi/</link>
+      <link>http://localhost:41151/blog/testing-vishnu-tripathi/</link>
       <pubDate>Sun, 06 Jul 2025 20:51:00 +0530</pubDate>
-      <guid>http://localhost:1313/blog/testing-vishnu-tripathi/</guid>
+      <guid>http://localhost:41151/blog/testing-vishnu-tripathi/</guid>
       <description>&lt;p&gt;testing&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Sample Blog Post</title>
-      <link>http://localhost:1313/blog/post1/</link>
-      <pubDate>Sat, 05 Jul 2025 12:16:00 +0530</pubDate>
-      <guid>http://localhost:1313/blog/post1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sample Blog Post</title>
-      <link>http://localhost:1313/blog/post2/</link>
-      <pubDate>Sat, 05 Jul 2025 12:16:00 +0530</pubDate>
-      <guid>http://localhost:1313/blog/post2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sample Blog Post test</title>
-      <link>http://localhost:1313/blog/post3/</link>
-      <pubDate>Sat, 05 Jul 2025 12:16:00 +0530</pubDate>
-      <guid>http://localhost:1313/blog/post3/</guid>
-      <description>&lt;p&gt;extra text&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Catherine Lavery</title>
-      <link>http://localhost:1313/team/speech-therapists/catherine-lavery/</link>
+      <link>http://localhost:41151/team/speech-therapists/catherine-lavery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/speech-therapists/catherine-lavery/</guid>
+      <guid>http://localhost:41151/team/speech-therapists/catherine-lavery/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 1</title>
-      <link>http://localhost:1313/team/administrative-staff/catherine-lavery1/</link>
+      <link>http://localhost:41151/team/administrative-staff/catherine-lavery1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/administrative-staff/catherine-lavery1/</guid>
+      <guid>http://localhost:41151/team/administrative-staff/catherine-lavery1/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 2</title>
-      <link>http://localhost:1313/team/administrative-staff/catherine-lavery2/</link>
+      <link>http://localhost:41151/team/administrative-staff/catherine-lavery2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/administrative-staff/catherine-lavery2/</guid>
+      <guid>http://localhost:41151/team/administrative-staff/catherine-lavery2/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 3</title>
-      <link>http://localhost:1313/team/administrative-staff/catherine-lavery3/</link>
+      <link>http://localhost:41151/team/administrative-staff/catherine-lavery3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/administrative-staff/catherine-lavery3/</guid>
+      <guid>http://localhost:41151/team/administrative-staff/catherine-lavery3/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 4</title>
-      <link>http://localhost:1313/team/administrative-staff/catherine-lavery4/</link>
+      <link>http://localhost:41151/team/administrative-staff/catherine-lavery4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/administrative-staff/catherine-lavery4/</guid>
+      <guid>http://localhost:41151/team/administrative-staff/catherine-lavery4/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 5</title>
-      <link>http://localhost:1313/team/administrative-staff/catherine-lavery5/</link>
+      <link>http://localhost:41151/team/administrative-staff/catherine-lavery5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/administrative-staff/catherine-lavery5/</guid>
+      <guid>http://localhost:41151/team/administrative-staff/catherine-lavery5/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 6</title>
-      <link>http://localhost:1313/team/administrative-staff/catherine-lavery6/</link>
+      <link>http://localhost:41151/team/administrative-staff/catherine-lavery6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/administrative-staff/catherine-lavery6/</guid>
+      <guid>http://localhost:41151/team/administrative-staff/catherine-lavery6/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 7</title>
-      <link>http://localhost:1313/team/administrative-staff/catherine-lavery7/</link>
+      <link>http://localhost:41151/team/administrative-staff/catherine-lavery7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/administrative-staff/catherine-lavery7/</guid>
+      <guid>http://localhost:41151/team/administrative-staff/catherine-lavery7/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 8</title>
-      <link>http://localhost:1313/team/administrative-staff/catherine-lavery8/</link>
+      <link>http://localhost:41151/team/administrative-staff/catherine-lavery8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/administrative-staff/catherine-lavery8/</guid>
+      <guid>http://localhost:41151/team/administrative-staff/catherine-lavery8/</guid>
       <description></description>
     </item>
     <item>
-      <title>Jane Doe</title>
-      <link>http://localhost:1313/team/speech-therapists/jane-doe/</link>
+      <title>devanshu testing</title>
+      <link>http://localhost:41151/blog/devanshu-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/speech-therapists/jane-doe/</guid>
+      <guid>http://localhost:41151/blog/devanshu-testing/</guid>
+      <description>&lt;p&gt;test&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jane Doe</title>
+      <link>http://localhost:41151/team/speech-therapists/jane-doe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:41151/team/speech-therapists/jane-doe/</guid>
       <description></description>
     </item>
     <item>
       <title>Jane Doe 1 </title>
-      <link>http://localhost:1313/team/occupational-therapists/jane-doe1/</link>
+      <link>http://localhost:41151/team/occupational-therapists/jane-doe1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/occupational-therapists/jane-doe1/</guid>
+      <guid>http://localhost:41151/team/occupational-therapists/jane-doe1/</guid>
       <description></description>
     </item>
     <item>
       <title>Jane Doe 2</title>
-      <link>http://localhost:1313/team/occupational-therapists/jane-doe2/</link>
+      <link>http://localhost:41151/team/occupational-therapists/jane-doe2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/occupational-therapists/jane-doe2/</guid>
+      <guid>http://localhost:41151/team/occupational-therapists/jane-doe2/</guid>
       <description></description>
     </item>
     <item>
       <title>Jane Doe 3</title>
-      <link>http://localhost:1313/team/occupational-therapists/jane-doe3/</link>
+      <link>http://localhost:41151/team/occupational-therapists/jane-doe3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/occupational-therapists/jane-doe3/</guid>
+      <guid>http://localhost:41151/team/occupational-therapists/jane-doe3/</guid>
       <description></description>
     </item>
     <item>
       <title>John Smith</title>
-      <link>http://localhost:1313/team/speech-therapists/john-smith/</link>
+      <link>http://localhost:41151/team/speech-therapists/john-smith/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/speech-therapists/john-smith/</guid>
+      <guid>http://localhost:41151/team/speech-therapists/john-smith/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Sample Blog Post</title>
+      <link>http://localhost:41151/blog/post1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:41151/blog/post1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sample Blog Post</title>
+      <link>http://localhost:41151/blog/post2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:41151/blog/post2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sample Blog Post test</title>
+      <link>http://localhost:41151/blog/post3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:41151/blog/post3/</guid>
+      <description>&lt;p&gt;extra text&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

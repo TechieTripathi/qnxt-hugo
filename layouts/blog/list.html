@@ -3,27 +3,28 @@
     <h2>{{ .Title | markdownify }}</h2>
     <div class="blog-grid">
       {{ range .Pages }}
-        <div class="blog-card">
-          <div class="blog-content">
-            <div class="blog-text">
-              <h3>{{ .Title | markdownify }}</h3>
-              <p>{{ .Params.description | markdownify }}</p>
-              <div class="blog-image">
-                <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" />
-              </div>
-              <div class="blog-data">
-                <!-- {{ range first 2 .Params.tags }}
-                  <div>
-                    <span>{{ . | upper }}</span>
-                    {{ if eq . "ai" }}HALF-PRECISION (FP16){{ else if eq . "data-science" }}SINGLE-PRECISION (FP32){{ end }}
-                  </div>
-                {{ end }} -->
-                <p>{{ if .Params.extra_text }}{{ .Params.extra_text | markdownify }}{{ else }}Reduced numerical accuracy{{ end }}</p>
+        <a href="{{ .Permalink }}" class="blog-card-link">
+          <div class="blog-card">
+            <div class="blog-content">
+              <div class="blog-text">
+                <h3>{{ .Title | markdownify }}</h3>
+                <p>{{ .Params.description | markdownify }}</p>
+                <div class="blog-image">
+                  <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" />
+                </div>
+                <div class="blog-data">
+                  <!-- {{ range first 2 .Params.tags }}
+                    <div>
+                      <span>{{ . | upper }}</span>
+                      {{ if eq . "ai" }}HALF-PRECISION (FP16){{ else if eq . "data-science" }}SINGLE-PRECISION (FP32){{ end }}
+                    </div>
+                  {{ end }} -->
+                  <p>{{ if .Params.extra_text }}{{ .Params.extra_text | markdownify }}{{ else }}Reduced numerical accuracy{{ end }}</p>
+                </div>
               </div>
             </div>
-           
           </div>
-        </div>
+        </a>
       {{ end }}
     </div>
   </section>

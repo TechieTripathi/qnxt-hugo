@@ -1,5 +1,5 @@
 ---
-title: "Q-nxt"
+title: "Qnxt"
 date: 2025-04-09
 layout: "home"
 logo: "/images/logo.svg"
