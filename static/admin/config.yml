@@ -12,7 +12,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD'T'HH:mm:ssZ"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Description", name: "description", widget: "text"}
