@@ -22,6 +22,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     /> -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    netlifyIdentity.on("init", user => {
+      if (!user) {
+        netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
     <!-- Home -->
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/blog.css" />
