@@ -2,67 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:36107/team/speech-therapists/</loc>
+    <loc>http://localhost:1313/team/speech-therapists/</loc>
   </url><url>
-    <loc>//localhost:36107/team/occupational-therapists/</loc>
+    <loc>http://localhost:1313/team/occupational-therapists/</loc>
   </url><url>
-    <loc>//localhost:36107/team/administrative-staff/</loc>
+    <loc>http://localhost:1313/team/administrative-staff/</loc>
   </url><url>
-    <loc>//localhost:36107/tags/ai/</loc>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2025-07-06T20:51:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2025-07-06T20:51:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-07-06T20:51:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/testing-vishnu-tripathi/</loc>
+    <lastmod>2025-07-06T20:51:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-science/</loc>
     <lastmod>2025-07-05T12:16:00+05:30</lastmod>
   </url><url>
-    <loc>//localhost:36107/tags/data-science/</loc>
+    <loc>http://localhost:1313/blog/post1/</loc>
     <lastmod>2025-07-05T12:16:00+05:30</lastmod>
   </url><url>
-    <loc>//localhost:36107/blog/</loc>
+    <loc>http://localhost:1313/blog/post2/</loc>
     <lastmod>2025-07-05T12:16:00+05:30</lastmod>
   </url><url>
-    <loc>//localhost:36107/blog/post1/</loc>
+    <loc>http://localhost:1313/blog/post3/</loc>
     <lastmod>2025-07-05T12:16:00+05:30</lastmod>
   </url><url>
-    <loc>//localhost:36107/blog/post2/</loc>
-    <lastmod>2025-07-05T12:16:00+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:36107/blog/post3/</loc>
-    <lastmod>2025-07-05T12:16:00+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:36107/tags/</loc>
-    <lastmod>2025-07-05T12:16:00+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:36107/team/</loc>
+    <loc>http://localhost:1313/team/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:36107/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:36107/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>//localhost:36107/team/speech-therapists/catherine-lavery/</loc>
+    <loc>http://localhost:1313/team/speech-therapists/catherine-lavery/</loc>
   </url><url>
-    <loc>//localhost:36107/team/administrative-staff/catherine-lavery1/</loc>
+    <loc>http://localhost:1313/team/administrative-staff/catherine-lavery1/</loc>
   </url><url>
-    <loc>//localhost:36107/team/administrative-staff/catherine-lavery2/</loc>
+    <loc>http://localhost:1313/team/administrative-staff/catherine-lavery2/</loc>
   </url><url>
-    <loc>//localhost:36107/team/administrative-staff/catherine-lavery3/</loc>
+    <loc>http://localhost:1313/team/administrative-staff/catherine-lavery3/</loc>
   </url><url>
-    <loc>//localhost:36107/team/administrative-staff/catherine-lavery4/</loc>
+    <loc>http://localhost:1313/team/administrative-staff/catherine-lavery4/</loc>
   </url><url>
-    <loc>//localhost:36107/team/administrative-staff/catherine-lavery5/</loc>
+    <loc>http://localhost:1313/team/administrative-staff/catherine-lavery5/</loc>
   </url><url>
-    <loc>//localhost:36107/team/administrative-staff/catherine-lavery6/</loc>
+    <loc>http://localhost:1313/team/administrative-staff/catherine-lavery6/</loc>
   </url><url>
-    <loc>//localhost:36107/team/administrative-staff/catherine-lavery7/</loc>
+    <loc>http://localhost:1313/team/administrative-staff/catherine-lavery7/</loc>
   </url><url>
-    <loc>//localhost:36107/team/administrative-staff/catherine-lavery8/</loc>
+    <loc>http://localhost:1313/team/administrative-staff/catherine-lavery8/</loc>
   </url><url>
-    <loc>//localhost:36107/team/speech-therapists/jane-doe/</loc>
+    <loc>http://localhost:1313/team/speech-therapists/jane-doe/</loc>
   </url><url>
-    <loc>//localhost:36107/team/occupational-therapists/jane-doe1/</loc>
+    <loc>http://localhost:1313/team/occupational-therapists/jane-doe1/</loc>
   </url><url>
-    <loc>//localhost:36107/team/occupational-therapists/jane-doe2/</loc>
+    <loc>http://localhost:1313/team/occupational-therapists/jane-doe2/</loc>
   </url><url>
-    <loc>//localhost:36107/team/occupational-therapists/jane-doe3/</loc>
+    <loc>http://localhost:1313/team/occupational-therapists/jane-doe3/</loc>
   </url><url>
-    <loc>//localhost:36107/team/speech-therapists/john-smith/</loc>
+    <loc>http://localhost:1313/team/speech-therapists/john-smith/</loc>
   </url>
 </urlset>

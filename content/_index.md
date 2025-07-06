@@ -1,5 +1,5 @@
 ---
-title: "Sydney Speech Clinic | Home"
+title: "Q-nxt"
 date: 2025-04-09
 layout: "home"
 logo: "/images/logo.svg"

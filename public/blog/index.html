@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=36107&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Latest Insights &amp; Updates</title>
+    <title>Blogs List</title>
     
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    netlifyIdentity.on("init", user => {
+      if (!user) {
+        netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
     
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/blog.css" />
@@ -87,16 +99,33 @@
 
   
   <section class="blogs">
-    <h2>Latest Insights &amp; Updates</h2>
+    <h2>Blogs List</h2>
     <div class="blog-grid">
       
         <div class="blog-card">
           <div class="blog-content">
             <div class="blog-text">
+              <h3>Testing Vishnu Tripathi</h3>
+              <p>testing</p>
+              <div class="blog-image">
+                <img src="http://localhost:1313/images/roi_impact_chart.png" alt="Testing Vishnu Tripathi" />
+              </div>
+              <div class="blog-data">
+                
+                <p>testing</p>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      
+        <div class="blog-card">
+          <div class="blog-content">
+            <div class="blog-text">
               <h3>Sample Blog Post</h3>
               <p>A brief description of the blog post.</p>
               <div class="blog-image">
-                <img src="//localhost:36107/images/ai_complexity_roi_scatter.png" alt="Sample Blog Post" />
+                <img src="http://localhost:1313/images/ai_complexity_roi_scatter.png" alt="Sample Blog Post" />
               </div>
               <div class="blog-data">
                 
@@ -113,7 +142,7 @@
               <h3>Sample Blog Post</h3>
               <p>A brief description of the blog post.</p>
               <div class="blog-image">
-                <img src="//localhost:36107/images/ai_complexity_roi_scatter.png" alt="Sample Blog Post" />
+                <img src="http://localhost:1313/images/ai_complexity_roi_scatter.png" alt="Sample Blog Post" />
               </div>
               <div class="blog-data">
                 
@@ -127,10 +156,10 @@
         <div class="blog-card">
           <div class="blog-content">
             <div class="blog-text">
-              <h3>Sample Blog Post</h3>
-              <p>A brief description of the blog post.</p>
+              <h3>Sample Blog Post test</h3>
+              <p>A brief description of the blog post. testing+</p>
               <div class="blog-image">
-                <img src="//localhost:36107/images/ai_complexity_roi_scatter.png" alt="Sample Blog Post" />
+                <img src="http://localhost:1313/images/ai_complexity_roi_scatter.png" alt="Sample Blog Post test" />
               </div>
               <div class="blog-data">
                 
