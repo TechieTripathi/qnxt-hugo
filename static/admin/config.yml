@@ -6,7 +6,7 @@ public_folder: /images # URL path for media
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog Posts"
-    folder: "content/posts" # Folder for blog content
+    folder: "content/blog" # Folder for blog content
     create: true # Allows users to create new documents
     fields:
       - {label: "Title", name: "title", widget: "string"}
