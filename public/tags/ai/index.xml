@@ -2,45 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ai on Q Next</title>
-    <link>http://localhost:38947/tags/ai/</link>
+    <link>http://localhost:39525/tags/ai/</link>
     <description>Recent content in Ai on Q Next</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Jul 2025 20:51:00 +0530</lastBuildDate>
-    <atom:link href="http://localhost:38947/tags/ai/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Testing Vishnu Tripathi</title>
-      <link>http://localhost:38947/blog/testing-vishnu-tripathi/</link>
-      <pubDate>Sun, 06 Jul 2025 20:51:00 +0530</pubDate>
-      <guid>http://localhost:38947/blog/testing-vishnu-tripathi/</guid>
-      <description>&lt;p&gt;testing&lt;/p&gt;</description>
-    </item>
+    <atom:link href="http://localhost:39525/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>devanshu testing</title>
-      <link>http://localhost:38947/blog/devanshu-testing/</link>
+      <link>http://localhost:39525/blog/devanshu-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/blog/devanshu-testing/</guid>
-      <description>&lt;p&gt;test&lt;/p&gt;</description>
+      <guid>http://localhost:39525/blog/devanshu-testing/</guid>
+      <description>&lt;p&gt;🕰 Before the Mahabharata (Prelude / Background Events)&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;King Shantanu and the Ganga-Bhishma Story&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Shantanu marries Ganga → Bhishma is born.&lt;/p&gt;&#xA;&lt;p&gt;Later, Shantanu marries Satyavati; Bhishma takes a vow of celibacy to let her children rule.&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Birth of Vyasa and the Kuru Lineage&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Satyavati&amp;rsquo;s son dies childless → Vyasa fathers Dhritarashtra (blind), Pandu, and Vidura via Niyoga tradition.&lt;/p&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Births of Pandavas and Kauravas&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Kunti receives a divine mantra and gives birth to Yudhishthira, Bhima, Arjuna.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sample Blog Post</title>
-      <link>http://localhost:38947/blog/post1/</link>
+      <link>http://localhost:39525/blog/post1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/blog/post1/</guid>
+      <guid>http://localhost:39525/blog/post1/</guid>
       <description></description>
     </item>
     <item>
       <title>Sample Blog Post</title>
-      <link>http://localhost:38947/blog/post2/</link>
+      <link>http://localhost:39525/blog/post2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/blog/post2/</guid>
+      <guid>http://localhost:39525/blog/post2/</guid>
       <description></description>
     </item>
     <item>
       <title>Sample Blog Post test</title>
-      <link>http://localhost:38947/blog/post3/</link>
+      <link>http://localhost:39525/blog/post3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/blog/post3/</guid>
+      <guid>http://localhost:39525/blog/post3/</guid>
       <description>&lt;p&gt;extra text&lt;/p&gt;</description>
     </item>
   </channel>

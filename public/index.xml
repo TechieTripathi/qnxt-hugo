@@ -2,150 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Qnxt on Q Next</title>
-    <link>http://localhost:38947/</link>
+    <link>http://localhost:39525/</link>
     <description>Recent content in Qnxt on Q Next</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Jul 2025 20:51:00 +0530</lastBuildDate>
-    <atom:link href="http://localhost:38947/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Testing Vishnu Tripathi</title>
-      <link>http://localhost:38947/blog/testing-vishnu-tripathi/</link>
-      <pubDate>Sun, 06 Jul 2025 20:51:00 +0530</pubDate>
-      <guid>http://localhost:38947/blog/testing-vishnu-tripathi/</guid>
-      <description>&lt;p&gt;testing&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:39525/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Catherine Lavery</title>
-      <link>http://localhost:38947/team/speech-therapists/catherine-lavery/</link>
+      <link>http://localhost:39525/team/speech-therapists/catherine-lavery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/team/speech-therapists/catherine-lavery/</guid>
+      <guid>http://localhost:39525/team/speech-therapists/catherine-lavery/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 1</title>
-      <link>http://localhost:38947/team/administrative-staff/catherine-lavery1/</link>
+      <link>http://localhost:39525/team/administrative-staff/catherine-lavery1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/team/administrative-staff/catherine-lavery1/</guid>
+      <guid>http://localhost:39525/team/administrative-staff/catherine-lavery1/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 2</title>
-      <link>http://localhost:38947/team/administrative-staff/catherine-lavery2/</link>
+      <link>http://localhost:39525/team/administrative-staff/catherine-lavery2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/team/administrative-staff/catherine-lavery2/</guid>
+      <guid>http://localhost:39525/team/administrative-staff/catherine-lavery2/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 3</title>
-      <link>http://localhost:38947/team/administrative-staff/catherine-lavery3/</link>
+      <link>http://localhost:39525/team/administrative-staff/catherine-lavery3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/team/administrative-staff/catherine-lavery3/</guid>
+      <guid>http://localhost:39525/team/administrative-staff/catherine-lavery3/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 4</title>
-      <link>http://localhost:38947/team/administrative-staff/catherine-lavery4/</link>
+      <link>http://localhost:39525/team/administrative-staff/catherine-lavery4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/team/administrative-staff/catherine-lavery4/</guid>
+      <guid>http://localhost:39525/team/administrative-staff/catherine-lavery4/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 5</title>
-      <link>http://localhost:38947/team/administrative-staff/catherine-lavery5/</link>
+      <link>http://localhost:39525/team/administrative-staff/catherine-lavery5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/team/administrative-staff/catherine-lavery5/</guid>
+      <guid>http://localhost:39525/team/administrative-staff/catherine-lavery5/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 6</title>
-      <link>http://localhost:38947/team/administrative-staff/catherine-lavery6/</link>
+      <link>http://localhost:39525/team/administrative-staff/catherine-lavery6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/team/administrative-staff/catherine-lavery6/</guid>
+      <guid>http://localhost:39525/team/administrative-staff/catherine-lavery6/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 7</title>
-      <link>http://localhost:38947/team/administrative-staff/catherine-lavery7/</link>
+      <link>http://localhost:39525/team/administrative-staff/catherine-lavery7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/team/administrative-staff/catherine-lavery7/</guid>
+      <guid>http://localhost:39525/team/administrative-staff/catherine-lavery7/</guid>
       <description></description>
     </item>
     <item>
       <title>Catherine Lavery 8</title>
-      <link>http://localhost:38947/team/administrative-staff/catherine-lavery8/</link>
+      <link>http://localhost:39525/team/administrative-staff/catherine-lavery8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/team/administrative-staff/catherine-lavery8/</guid>
+      <guid>http://localhost:39525/team/administrative-staff/catherine-lavery8/</guid>
       <description></description>
     </item>
     <item>
       <title>devanshu testing</title>
-      <link>http://localhost:38947/blog/devanshu-testing/</link>
+      <link>http://localhost:39525/blog/devanshu-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/blog/devanshu-testing/</guid>
-      <description>&lt;p&gt;test&lt;/p&gt;</description>
+      <guid>http://localhost:39525/blog/devanshu-testing/</guid>
+      <description>&lt;p&gt;🕰 Before the Mahabharata (Prelude / Background Events)&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;King Shantanu and the Ganga-Bhishma Story&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Shantanu marries Ganga → Bhishma is born.&lt;/p&gt;&#xA;&lt;p&gt;Later, Shantanu marries Satyavati; Bhishma takes a vow of celibacy to let her children rule.&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Birth of Vyasa and the Kuru Lineage&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Satyavati&amp;rsquo;s son dies childless → Vyasa fathers Dhritarashtra (blind), Pandu, and Vidura via Niyoga tradition.&lt;/p&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Births of Pandavas and Kauravas&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Kunti receives a divine mantra and gives birth to Yudhishthira, Bhima, Arjuna.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Jane Doe</title>
-      <link>http://localhost:38947/team/speech-therapists/jane-doe/</link>
+      <link>http://localhost:39525/team/speech-therapists/jane-doe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/team/speech-therapists/jane-doe/</guid>
+      <guid>http://localhost:39525/team/speech-therapists/jane-doe/</guid>
       <description></description>
     </item>
     <item>
       <title>Jane Doe 1 </title>
-      <link>http://localhost:38947/team/occupational-therapists/jane-doe1/</link>
+      <link>http://localhost:39525/team/occupational-therapists/jane-doe1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/team/occupational-therapists/jane-doe1/</guid>
+      <guid>http://localhost:39525/team/occupational-therapists/jane-doe1/</guid>
       <description></description>
     </item>
     <item>
       <title>Jane Doe 2</title>
-      <link>http://localhost:38947/team/occupational-therapists/jane-doe2/</link>
+      <link>http://localhost:39525/team/occupational-therapists/jane-doe2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/team/occupational-therapists/jane-doe2/</guid>
+      <guid>http://localhost:39525/team/occupational-therapists/jane-doe2/</guid>
       <description></description>
     </item>
     <item>
       <title>Jane Doe 3</title>
-      <link>http://localhost:38947/team/occupational-therapists/jane-doe3/</link>
+      <link>http://localhost:39525/team/occupational-therapists/jane-doe3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/team/occupational-therapists/jane-doe3/</guid>
+      <guid>http://localhost:39525/team/occupational-therapists/jane-doe3/</guid>
       <description></description>
     </item>
     <item>
       <title>John Smith</title>
-      <link>http://localhost:38947/team/speech-therapists/john-smith/</link>
+      <link>http://localhost:39525/team/speech-therapists/john-smith/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/team/speech-therapists/john-smith/</guid>
+      <guid>http://localhost:39525/team/speech-therapists/john-smith/</guid>
       <description></description>
     </item>
     <item>
       <title>Sample Blog Post</title>
-      <link>http://localhost:38947/blog/post1/</link>
+      <link>http://localhost:39525/blog/post1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/blog/post1/</guid>
+      <guid>http://localhost:39525/blog/post1/</guid>
       <description></description>
     </item>
     <item>
       <title>Sample Blog Post</title>
-      <link>http://localhost:38947/blog/post2/</link>
+      <link>http://localhost:39525/blog/post2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/blog/post2/</guid>
+      <guid>http://localhost:39525/blog/post2/</guid>
       <description></description>
     </item>
     <item>
       <title>Sample Blog Post test</title>
-      <link>http://localhost:38947/blog/post3/</link>
+      <link>http://localhost:39525/blog/post3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/blog/post3/</guid>
+      <guid>http://localhost:39525/blog/post3/</guid>
       <description>&lt;p&gt;extra text&lt;/p&gt;</description>
     </item>
     <item>
       <title>testing-dev</title>
-      <link>http://localhost:38947/blog/testing-dev/</link>
+      <link>http://localhost:39525/blog/testing-dev/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/blog/testing-dev/</guid>
+      <guid>http://localhost:39525/blog/testing-dev/</guid>
       <description>&lt;p&gt;test&lt;/p&gt;</description>
     </item>
   </channel>

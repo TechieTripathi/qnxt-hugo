@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data-Science on Q Next</title>
-    <link>http://localhost:38947/tags/data-science/</link>
+    <link>http://localhost:39525/tags/data-science/</link>
     <description>Recent content in Data-Science on Q Next</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:38947/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:39525/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sample Blog Post</title>
-      <link>http://localhost:38947/blog/post1/</link>
+      <link>http://localhost:39525/blog/post1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/blog/post1/</guid>
+      <guid>http://localhost:39525/blog/post1/</guid>
       <description></description>
     </item>
     <item>
       <title>Sample Blog Post</title>
-      <link>http://localhost:38947/blog/post2/</link>
+      <link>http://localhost:39525/blog/post2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/blog/post2/</guid>
+      <guid>http://localhost:39525/blog/post2/</guid>
       <description></description>
     </item>
     <item>
       <title>Sample Blog Post test</title>
-      <link>http://localhost:38947/blog/post3/</link>
+      <link>http://localhost:39525/blog/post3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38947/blog/post3/</guid>
+      <guid>http://localhost:39525/blog/post3/</guid>
       <description>&lt;p&gt;extra text&lt;/p&gt;</description>
     </item>
   </channel>

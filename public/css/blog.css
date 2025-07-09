@@ -27,7 +27,7 @@
     padding: var(--space-20);
     box-shadow: var(--shadow-sm);
     transition: transform var(--duration-normal) var(--ease-standard), box-shadow var(--duration-normal) var(--ease-standard);
-    min-height: 340px;
+    /* min-height: 340px; */
     }
     
     .blog-card:hover {
@@ -41,15 +41,15 @@
     margin-bottom: var(--space-12);
     }
     
-    .blog-card p {
+    .blog-text p {
     font-size: var(--font-size-md);
     color: var(--color-text-secondary);
-    margin-bottom: var(--space-16);
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    margin-bottom: var(--space-16) ;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important; 
     }
     
     .blog-data {

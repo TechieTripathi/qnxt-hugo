@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meet Our Dedicated Team on Q Next</title>
-    <link>http://localhost:38947/team/</link>
+    <link>http://localhost:39525/team/</link>
     <description>Recent content in Meet Our Dedicated Team on Q Next</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:38947/team/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:39525/team/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

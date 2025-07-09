@@ -2,18 +2,15 @@
 title: devanshu testing
 draft: false
 image: /images/ai_complexity_roi_scatter.png
-description: >
-  Before the Mahabharata (Prelude / Background Events)
+description: Before the Mahabharata (Prelude / Background Events)
 
   King Shantanu and the Ganga-Bhishma Story
-
 
   Shantanu marries Ganga → Bhishma is born.
 
   Later, Shantanu marries Satyavati; Bhishma takes a vow of celibacy to let her children rule.
 
   Birth of Vyasa and the Kuru Lineage
-
 
   Satyavati's son dies childless → Vyasa fathers Dhritarashtra (blind), Pandu, and Vidura via Niyoga tradition.
 extra_text: "asjdfjasdlfjalsdfjlakdjf "
