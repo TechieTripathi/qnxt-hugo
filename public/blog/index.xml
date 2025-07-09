@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs List on Q Next</title>
-    <link>http://localhost:41151/blog/</link>
+    <link>http://localhost:38947/blog/</link>
     <description>Recent content in Blogs List on Q Next</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Jul 2025 20:51:00 +0530</lastBuildDate>
-    <atom:link href="http://localhost:41151/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:38947/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testing Vishnu Tripathi</title>
-      <link>http://localhost:41151/blog/testing-vishnu-tripathi/</link>
+      <link>http://localhost:38947/blog/testing-vishnu-tripathi/</link>
       <pubDate>Sun, 06 Jul 2025 20:51:00 +0530</pubDate>
-      <guid>http://localhost:41151/blog/testing-vishnu-tripathi/</guid>
+      <guid>http://localhost:38947/blog/testing-vishnu-tripathi/</guid>
       <description>&lt;p&gt;testing&lt;/p&gt;</description>
     </item>
     <item>
       <title>devanshu testing</title>
-      <link>http://localhost:41151/blog/devanshu-testing/</link>
+      <link>http://localhost:38947/blog/devanshu-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:41151/blog/devanshu-testing/</guid>
+      <guid>http://localhost:38947/blog/devanshu-testing/</guid>
       <description>&lt;p&gt;test&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sample Blog Post</title>
-      <link>http://localhost:41151/blog/post1/</link>
+      <link>http://localhost:38947/blog/post1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:41151/blog/post1/</guid>
+      <guid>http://localhost:38947/blog/post1/</guid>
       <description></description>
     </item>
     <item>
       <title>Sample Blog Post</title>
-      <link>http://localhost:41151/blog/post2/</link>
+      <link>http://localhost:38947/blog/post2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:41151/blog/post2/</guid>
+      <guid>http://localhost:38947/blog/post2/</guid>
       <description></description>
     </item>
     <item>
       <title>Sample Blog Post test</title>
-      <link>http://localhost:41151/blog/post3/</link>
+      <link>http://localhost:38947/blog/post3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:41151/blog/post3/</guid>
+      <guid>http://localhost:38947/blog/post3/</guid>
       <description>&lt;p&gt;extra text&lt;/p&gt;</description>
     </item>
     <item>
       <title>testing-dev</title>
-      <link>http://localhost:41151/blog/testing-dev/</link>
+      <link>http://localhost:38947/blog/testing-dev/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:41151/blog/testing-dev/</guid>
+      <guid>http://localhost:38947/blog/testing-dev/</guid>
       <description>&lt;p&gt;test&lt;/p&gt;</description>
     </item>
   </channel>

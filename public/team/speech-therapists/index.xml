@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Speech Therapists on Q Next</title>
-    <link>http://localhost:41151/team/speech-therapists/</link>
+    <link>http://localhost:38947/team/speech-therapists/</link>
     <description>Recent content in Speech Therapists on Q Next</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:41151/team/speech-therapists/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:38947/team/speech-therapists/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Catherine Lavery</title>
-      <link>http://localhost:41151/team/speech-therapists/catherine-lavery/</link>
+      <link>http://localhost:38947/team/speech-therapists/catherine-lavery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:41151/team/speech-therapists/catherine-lavery/</guid>
+      <guid>http://localhost:38947/team/speech-therapists/catherine-lavery/</guid>
       <description></description>
     </item>
     <item>
       <title>Jane Doe</title>
-      <link>http://localhost:41151/team/speech-therapists/jane-doe/</link>
+      <link>http://localhost:38947/team/speech-therapists/jane-doe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:41151/team/speech-therapists/jane-doe/</guid>
+      <guid>http://localhost:38947/team/speech-therapists/jane-doe/</guid>
       <description></description>
     </item>
     <item>
       <title>John Smith</title>
-      <link>http://localhost:41151/team/speech-therapists/john-smith/</link>
+      <link>http://localhost:38947/team/speech-therapists/john-smith/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:41151/team/speech-therapists/john-smith/</guid>
+      <guid>http://localhost:38947/team/speech-therapists/john-smith/</guid>
       <description></description>
     </item>
   </channel>

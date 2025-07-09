@@ -43,8 +43,9 @@
     <div class="speech-articulation-bg">
       <div class="container">
         <div class="speech-articulation-txt">
-          <h1>{{ .Title | markdownify }}</h1>
-          <p>{{ .Params.description | markdownify }}</p>
+          <h1  style="text-align: center !important;">{{ .Title | markdownify }}</h1>
+          <p> {{ .Params.description | markdownify }}</p>
+          <p>{{ .Params.extra_text | markdownify}}</p>
         </div>
         <!-- <div class="speech-idea-bg">
           {{ if .Content }}
